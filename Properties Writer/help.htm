@@ -1,0 +1,348 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Properties Writer - Help File</title>
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+
+<body>
+
+<div align="center">
+  <center>
+  <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#098CD0" width="800">
+    <tr>
+      <td width="800" height="80"><a href="index.php">
+      <img border="0" src="images/help_top.jpg" alt="Nite Revolution - Planet Guitar" width="800" height="80"></a></td>
+    </tr>
+    <tr>
+      <td width="800" height="25" background="images/nav_menu.jpg">
+      &nbsp;</td>
+    </tr>
+    <tr>
+      <td class="table_body" width="800" height="15" valign="top">
+      <div align="center">
+        <center>
+        <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="760">
+          <tr>
+            <td width="50%">&nbsp;</td>
+          </tr>
+          <tr>
+            <td width="50%">
+            <p align="center"><font size="4" color="#379BFC"><b>Properties 
+            Writer - Help Contents</b></font></td>
+          </tr>
+          <tr>
+            <td width="50%">
+            <hr color="#098CD0" width="760" size="1" noshade style="border-style: dotted; border-width: 1"></td>
+          </tr>
+          <tr>
+            <td width="50%">&nbsp;</td>
+          </tr>
+          </table>
+        </center>
+      </div>
+      <div align="center">
+        <center>
+        <table border="0" cellspacing="0" width="760" style="border-collapse: collapse" bordercolor="#111111" cellpadding="0">
+          <tr>
+            <td width="90%" valign="top" class="contentarea" align="justify">
+            <h3><b>
+            <a name="Contents">Table of contents:</a></b></h3>
+            <hr noshade color="#098CD0" size="1" width="30%" align="left" style="border-style: dashed; border-width: 1"><p>
+            <b>Getting started</b><ul>
+              <li><a href="#Introduction">Introduction</a></li>
+              <li><a href="#How_it_works">How it works</a></li>
+              </ul>
+              <p><b>Using Properties Writer</b><ul>
+                <li><a href="#Program_settings">Changing program settings</a></li>
+                <li><a href="#Basic_info">Entering basic information</a></li>
+                <li><a href="#Adding_property">Adding a property</a></li>
+                <li><a href="#Removing_property">Removing a property</a></li>
+                <li><a href="#Editing_property">Editing a property</a></li>
+                <li><a href="#Generating_code">Generating code</a></li>
+                </ul>
+                <hr noshade color="#098CD0" size="1" align="left" style="border-style: dashed; border-width: 1"><p>
+                <b><a name="Introduction">Introduction</a></b><p>Properties 
+                Writer was designed as a tool for programmers who often write 
+                ActiveX controls. It takes the time and hassle out of typing 
+                properties into your code manually. With an easy-to-use 
+                interface and fast code generation, Properties Writer is a great 
+                tool for all Visual Basic programmers.<p><font size="1">
+            <a href="#Contents">Back to top</a></font><p><b>
+                <a name="How_it_works">How it works</a></b><p>First, you enter 
+                your property information into the form, such as: property name, 
+                data type, container variable, etc. (each field will be 
+                discussed soon). After all information is provided, you can 
+                click the <i>Add</i> button to add the property to the list.<p>
+                Once you have all of your properties added to the list, it is 
+                recommended you save the session by clicking the <i>File -&gt; Save</i> 
+                menu item. This will save a list of all properties so you can 
+                modify them at a later time.<p>After your property list is 
+                saved, you can generate the Visual Basic code by clicking the <i>
+                Generate -&gt; Generate Code</i> menu item. A new window will 
+                appear displaying the code to copy and paste into your user 
+                control project.<p>Properties Writer generates code for the 
+                following:<ul>
+                  <li>Container variable declarations</li>
+                  <li>Property get and property set/let routines</li>
+                  <li>UserControl_InitProperties() event</li>
+                  <li>UserControl_ReadProperties() event</li>
+                  <li>UserControl_WriteProperties() event</li>
+                  </ul>
+                  <p><font size="1"><a href="#Contents">Back to top</a></font></p>
+                  <hr noshade color="#098CD0" size="1" align="left" style="border-style: dashed; border-width: 1">
+                  <p><b><a name="Program_settings">Changing program settings</a></b></p>
+                  <p>Properties Writer comes with several different options to 
+                  customize the way it behaves. The first category in the list 
+                  is <i>Program Behavior</i>.</p>
+                  <p>
+                  <img border="0" src="images/help_img_pref1.gif" width="485" height="281"></p>
+                  <p>Below, is a brief description of what each setting does and 
+                  it's default value.</p>
+                  <p><u>Save window position when closing</u> - If this feature 
+                  is enabled, Properties Writer will save its last used position 
+                  on-screen, so next time you use it, it will appear exactly 
+                  where it was before. You can reset this value by clicking the 
+                  corresponding <i>Reset</i> button. This feature is enabled by 
+                  default.</p>
+                  <p><u>Save list column sizes when closing</u> - If this 
+                  feature is enabled, Properties Writer will save the widths of 
+                  the property list's columns so you don't have to resize them 
+                  every time you use the program. You can reset this value by 
+                  clicking the corresponding <i>Reset</i> button. This feature 
+                  is enabled by default.</p>
+                  <p><u>Save property clear options when closing</u> - If this 
+                  feature is enabled, Properties Writer will save the <i>Clear</i> 
+                  options on the main form so you don't have to change them 
+                  every time you use the program. This feature is enabled by 
+                  default.</p>
+                  <p>The next category in the list is <i>Code Generator</i>.</p>
+                  <p>
+                  <img border="0" src="images/help_img_pref2.gif" width="485" height="281"></p>
+                  <p>Below, is a brief description of what each setting does and 
+                  it's default value.</p>
+                  <p><u>Add comments to code</u> - If this feature is enabled, 
+                  Properties Writer will add brief comments to the generated 
+                  code. Comments are placed:</p>
+                  <ul>
+                    <li>Before property container variable declarations</li>
+                    <li>Before property get, set/let routines</li>
+                    <li>Before the UserControl_InitProperties() event</li>
+                    <li>Before the UserControl_ReadProperties() event</li>
+                    <li>Before the UserControl_WriteProperties() event</li>
+            </ul>
+                  <p>This feature is disabled by default.</p>
+                  <p><u>Indent code between sub routine/end sub</u> - If this 
+                  feature is enabled, Properties Writer will indent the code 
+                  within a sub routine. For example, the code will look 
+                  like the following:</p>
+                  <table border="2" cellpadding="3" cellspacing="3" style="border-collapse: collapse" bordercolor="#098CD0" width="100%" bgcolor="#F2F9FF">
+                    <tr>
+                      <td width="100%" align="justify" valign="top">
+                      <font face="Courier New"><font color="#000080">Private Sub</font> 
+                      UserControl_InitProperties()<br>
+&nbsp;&nbsp;&nbsp; <font color="#000080">Dim</font> Variable
+                      <font color="#000080">As String</font><br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; <font color="#008000">'Insert code here...</font><br>
+&nbsp;&nbsp;&nbsp; Variable = &quot;Code here.&quot;<br>
+                      <font color="#000080">End Sub</font></font></td>
+                    </tr>
+            </table>
+            <p>This feature is enabled by default.</p>
+            <p><u>Indent code between with/end with statements</u> -&nbsp; If 
+            this feature is enabled, Properties Writer will indent the code 
+            between a With/End With statement. For example, the code will look 
+            like the following:</p>
+                  <table border="2" cellpadding="3" cellspacing="3" style="border-collapse: collapse" bordercolor="#098CD0" width="100%" bgcolor="#F2F9FF">
+                    <tr>
+                      <td width="100%" align="justify" valign="top">
+                      <font face="Courier New"><font color="#000080">Private Sub</font> 
+                      UserControl_InitProperties()<br>
+&nbsp;&nbsp;&nbsp; <font color="#000080">With </font>Object<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .Property1 = &quot;Value&quot;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .Method<br>
+&nbsp;&nbsp;&nbsp; <font color="#000080">End With</font><br>
+                      <font color="#000080">End Sub</font></font></td>
+                    </tr>
+            </table>
+            <p>This feature is enabled by default.</p>
+            <p><u>Indent using real tabs</u> - If this feature is enabled, 
+            Properties Writer will use real tab characters (vbTab).</p>
+            <p><u>Indent width (spaces)</u> - If the <i>indent using real tabs</i> 
+            feature is disabled, you can specify the number of spaces to use for 
+            each tab. For example, if you entered a value of <i>2</i> spaces, 
+            then the code will look like the following:</p>
+                  <table border="2" cellpadding="3" cellspacing="3" style="border-collapse: collapse" bordercolor="#098CD0" width="100%" bgcolor="#F2F9FF">
+                    <tr>
+                      <td width="100%" align="justify" valign="top">
+                      <font face="Courier New"><font color="#000080">Private Sub</font> 
+                      UserControl_InitProperties()<br>
+&nbsp; <font color="#000080">With</font> Object<br>
+&nbsp;&nbsp;&nbsp; .Property1 = &quot;Value&quot;<br>
+&nbsp;&nbsp;&nbsp; .Method<br>
+&nbsp; <font color="#000080">End With</font><br>
+                      <font color="#000080">End Sub</font></font></td>
+                    </tr>
+            </table>
+            <p>This feature is disabled by default.</p>
+                  <p><font size="1"><a href="#Contents">Back to top</a></font></p>
+                  <hr noshade color="#098CD0" size="1" align="left" style="border-style: dashed; border-width: 1">
+                  <p><b><a name="Basic_info">Entering basic information</a></b></p>
+            <p>When adding a property to the list, you must first enter its 
+            information. If you are not familiar with how properties work in an 
+            ActiveX control, then it is recommended that you learn that first.</p>
+            <p>Here is a screenshot of the main form:</p>
+            <p>
+            <img border="0" src="images/help_img_pref3.gif" width="334" height="405"></p>
+            <p>Below is a brief description of what each field is for:</p>
+            <p><u>Property name</u> - This is the name of the property. For 
+            example, <i>Font</i>, <i>BackColor</i>, <i>Caption</i>, etc. This is 
+            the name that will appear in your ActiveX control's property list.</p>
+            <p><u>Data type</u> - This is the type of data your property holds. 
+            For example, <i>String</i>, <i>Boolean</i>, <i>Integer</i>, <i>
+            StdFont</i>, etc. You can also enter a custom data type that you 
+            define in your user control, for example:</p>
+                  <table border="2" cellpadding="3" cellspacing="3" style="border-collapse: collapse" bordercolor="#098CD0" width="100%" bgcolor="#F2F9FF">
+                    <tr>
+                      <td width="100%" align="justify" valign="top">
+                      <font face="Courier New"><font color="#000080">Public Enum</font> 
+                      CONTROL_STYLE<br>
+&nbsp;&nbsp;&nbsp; Standard = 0<br>
+&nbsp;&nbsp;&nbsp; [XP Blue] = 1<br>
+&nbsp;&nbsp;&nbsp; [XP Silver] = 2<br>
+                      <font color="#000080">End Enum</font></font></td>
+                    </tr>
+            </table>
+            <p>Using the above example, we would enter <i>CONTROL_STYLE</i> in 
+            the data type field.</p>
+            <p><u>Container</u> - This is the name of the container variable 
+            that holds the value of the property. For example:</p>
+                  <table border="2" cellpadding="3" cellspacing="3" style="border-collapse: collapse" bordercolor="#098CD0" width="100%" bgcolor="#F2F9FF">
+                    <tr>
+                      <td width="100%" align="justify" valign="top">
+                      <font face="Courier New"><font color="#000080">Private</font> 
+                      strCaption <font color="#000080">As String</font>
+                      <font color="#008000">'This is the container for the 
+                      Caption property.</font></font><p>
+                      <font face="Courier New"><font color="#000080">Public 
+                      Property Get</font> Caption() <font color="#000080">As 
+                      String</font><br>
+&nbsp;&nbsp;&nbsp; <font color="#000080">Let</font> Caption = strCaption<br>
+                      <font color="#000080">End Property</font></font></td>
+                    </tr>
+            </table>
+            <p>Using the above example, we would enter <i>strCaption</i> in the 
+            container field.</p>
+            <p><u>Default value</u> - This is the default value of your 
+            property. This will be the property's value when the user first adds 
+            your ActiveX control to their project. For example:</p>
+                  <table border="2" cellpadding="3" cellspacing="3" style="border-collapse: collapse" bordercolor="#098CD0" width="100%" bgcolor="#F2F9FF">
+                    <tr>
+                      <td width="100%" align="justify" valign="top">
+                      <font face="Courier New"><font color="#000080">Private Sub</font> 
+                      UserControl_InitProperties()<br>
+&nbsp;&nbsp;&nbsp; <font color="#000080">Let</font> Caption = 
+                      Ambient.DisplayName<br>
+                      <font color="#000080">End Sub</font></font></td>
+                    </tr>
+            </table>
+            <p>Using the above example, we would enter <i>Ambient.DisplayName</i> 
+            into default value field. Note that if the default value is a 
+            string, make sure you enter quotes into the default value field. For 
+            example:</p>
+                  <table border="2" cellpadding="3" cellspacing="3" style="border-collapse: collapse" bordercolor="#098CD0" width="100%" bgcolor="#F2F9FF">
+                    <tr>
+                      <td width="100%" align="justify" valign="top">
+                      <font face="Courier New"><font color="#000080">Private Sub</font> 
+                      UserControl_InitProperties()<br>
+&nbsp;&nbsp;&nbsp; <font color="#000080">Let</font> Caption = &quot;MyControl1&quot;<br>
+                      <font color="#000080">End Sub</font></font></td>
+                    </tr>
+            </table>
+            <p>Using the above example, we would enter <i>&quot;MyControl1&quot;</i> into 
+            the default value field (with quotes).</p>
+            <p><u>Clear options</u> - To the very right of each field is a 
+            checkbox. If selected, this field will be cleared after you add the 
+            property to the list. If left blank, the value you used on the last 
+            property will remain.</p>
+            <p><u>Property is object</u> - Enable this feature if the property 
+            is an object. For example, a <i>Font (StdFont)</i>, <i>Picture 
+            (StdPicture)</i>, etc. This tells the program to use <i>Set</i> 
+            instead of <i>Let</i> in the code.</p>
+            <p><u>Property is read-only</u> - Enable this feature if the 
+            property is read-only. If a property is read-only, it cannot be 
+            changed by the user. For example:</p>
+                  <table border="2" cellpadding="3" cellspacing="3" style="border-collapse: collapse" bordercolor="#098CD0" width="100%" bgcolor="#F2F9FF">
+                    <tr>
+                      <td width="100%" align="justify" valign="top">
+                      <font face="Courier New"><font color="#000080">Public 
+                      Property Get</font> hWnd() <font color="#000080">As Long</font><br>
+&nbsp;&nbsp;&nbsp; hWnd = UserControl.hWnd<br>
+                      <font color="#000080">End Property</font></font></td>
+                    </tr>
+            </table>
+            <p>If the property is read-only, Properties Writer will <i>not</i> 
+            generate code for the:</p>
+            <ul>
+              <li>Property container variable declarations</li>
+              <li>UserControl_InitProperties() event</li>
+              <li>UserControl_ReadProperties() event</li>
+              <li>UserControl_WriteProperties() event</li>
+            </ul>
+                  <p><font size="1"><a href="#Contents">Back to top</a></font></p>
+                  <hr noshade color="#098CD0" size="1" align="left" style="border-style: dashed; border-width: 1">
+                  <p><b><a name="Adding_property">Adding a property</a></b></p>
+            <p>After you have entered all of the property's information, click 
+            the <i>Add</i> button at the bottom of the form to add it to the 
+            list.</p>
+                  <p><font size="1"><a href="#Contents">Back to top</a></font></p>
+                  <hr noshade color="#098CD0" size="1" align="left" style="border-style: dashed; border-width: 1">
+                  <p><b><a name="Removing_property">Removing a property</a></b></p>
+            <p>If you wish to remove a property, simply select it in the list 
+            and click the <i>Remove</i> button.</p>
+                  <p><font size="1"><a href="#Contents">Back to top</a></font></p>
+                  <hr noshade color="#098CD0" size="1" align="left" style="border-style: dashed; border-width: 1">
+                  <p><b><a name="Editing_property">Editing a property</a></b></p>
+            <p>If you wish to edit a property, simply select it in the list and 
+            click the <i>Edit</i> button. The information will be displayed in 
+            the fields and the <i>Edit</i> button will turn into an <i>Update</i> 
+            button. After you're finished editing the property's information, 
+            click the <i>Update</i> button and the property will be updated.</p>
+                  <p><font size="1"><a href="#Contents">Back to top</a></font></p>
+                  <hr noshade color="#098CD0" size="1" align="left" style="border-style: dashed; border-width: 1">
+                  <p><b><a name="Generating_code">Generating code</a></b></p>
+            <p>After all of the properties have been added to the list, it is 
+            recommended that you first save the file by clicking the <i>File -&gt; 
+            Save</i> menu item. Once the file is saved, you can generate the 
+            code by clicking the <i>Generate -&gt; Generate Code</i> menu item or 
+            simply by pressing <i>CTRL + G</i>.</p>
+            <p>A new window will appear containing all of the code that was 
+            generated. Simply copy and paste the code into your ActiveX control 
+            project and you're done!</p>
+                  <p><font size="1"><a href="#Contents">Back to top</a></font></p>
+                  <hr color="#098CD0" size="1" noshade align="left" style="border-style: dotted; border-width: 1"></td>
+            <td width="10%" valign="top" class="rightside" align="justify">
+            <p style="text-align: center">&nbsp;</p>
+            </td>
+          </tr>
+          <tr>
+            <td width="90%">&nbsp;</td>
+            <td width="10%">&nbsp;</td>
+          </tr>
+        </table>
+        </center>
+      </div>
+      </td>
+    </tr>
+  </table>
+  </center>
+</div>
+
+<p align="center" class="tiny"><b>Copyright © 2006 - Danny Elkins</b> | All Rights Reserved ®</p>
+
+</body>
+
+</html>
