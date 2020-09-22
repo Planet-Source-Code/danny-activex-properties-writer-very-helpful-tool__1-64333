@@ -1,0 +1,70 @@
+body {
+background-color: #FFFFFF;
+font-family: verdana, tahoma, arial, serif;
+font-size: 10pt;
+scrollbar-arrow-color: #1491D3;
+scrollbar-3dlight-color: #1491D3;
+scrollbar-darkshadow-color: #0000A0;
+scrollbar-face-color: #F3FBFE;
+scrollbar-highlight-color: #1491D3;
+scrollbar-shadow-color: #0080FF;
+scrollbar-track-color: #1491D3;
+margin: 20px;
+}
+
+a:link {
+color: #098CD0;
+font-weight: bold;
+text-decoration: none;
+}
+
+a:visited {
+color: #075EB3;
+font-weight: bold;
+text-decoration: none;
+}
+
+a:hover {
+color: #379BFC;
+font-weight: bold;
+text-decoration: none;
+}
+
+a:active {
+color: #0471DC;
+font-weight: bold;
+text-decoration: none;
+}
+
+p, td, li, ul, table {
+font-family: verdana, tahoma, arial, serif;
+font-size: 10pt;
+}
+
+.tiny {
+font-family: verdana, tahoma, arial, serif;
+font-size: 10px;
+letter-spacing: 1px;
+}
+
+.rightside {
+font-family: verdana, tahoma, arial, serif;
+border-left: 1px dotted #098CD0;
+text-align: justify;
+background: #FFFFFF;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.contentarea {
+font-family: verdana, tahomam, arial, serif;
+text-align: justify;
+background: #FFFFFF;
+line-height: 18px;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 15px;
+padding-bottom: 15px;
+}
